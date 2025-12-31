@@ -1,0 +1,68 @@
+/* ===========================
+   Global styles
+=========================== */
+body {
+  background-color: #000000;   /* black background */
+  color: #00FFFF;              /* cyan text */
+  font-family: "Courier New", Courier, monospace;
+  padding: 40px;
+  margin: 0;
+}
+
+/* ===========================
+   Title
+=========================== */
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
+/* ===========================
+   Body content
+=========================== */
+.content {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  text-align: left;
+}
+
+.content p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  color: #00FFFF; /* cyan text stays */
+}
+
+/* ===========================
+   Links (LVHA order)
+=========================== */
+.content a:link, .links a:link {
+  color: white;          /* unclicked links */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content a:visited, .links a:visited {
+  color: yellow;    /* visited links */
+}
+
+.content a:hover, .links a:hover {
+  color: green;          /* hover color */
+  text-decoration: underline;
+}
+
+.content a:active, .links a:active {
+  color: green;          /* active color */
+}
+
+/* ===========================
+   Links container
+=========================== */
+.links {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
